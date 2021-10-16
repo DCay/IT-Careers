@@ -44,6 +44,19 @@ namespace Exam.Regular.HalfPalindromes
             // You are forming palindromes from a set of letters.
             // reversed don't count
 
+            // input - a b c
+
+
+            // a b c
+            // a c b
+            // b a c
+
+
+            // 
+
+
+
+
             string[] set = Console.ReadLine().Split();
                         Permute(0, set, new bool[set.Length], new List<string>(), new LinkedList<string>(), new HashSet<string>());
         }

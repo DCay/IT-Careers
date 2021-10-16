@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs.Testing", "Graphs.Testing\Graphs.Testing.csproj", "{20C502CC-7C7E-485F-A4ED-8E3A208563F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphs.Testing", "Graphs.Testing\Graphs.Testing.csproj", "{20C502CC-7C7E-485F-A4ED-8E3A208563F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph.DataStructure", "Graph.DataStructure\Graph.DataStructure.csproj", "{8704699D-87CA-4171-9709-51DF46CE0430}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph.DataStructure", "Graph.DataStructure\Graph.DataStructure.csproj", "{8704699D-87CA-4171-9709-51DF46CE0430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs.Something", "Graphs.Something\Graphs.Something.csproj", "{9DFBBAAB-FD7F-4FF5-AADC-1D90BCC9525D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs.Kruskal", "Graphs.Kruskal\Graphs.Kruskal.csproj", "{800F6C77-3461-4FE7-9AB8-503CBA27C65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs.ShortestPath", "Graphs.ShortestPath\Graphs.ShortestPath.csproj", "{E45F3A27-7F96-4FCC-BE4A-3A01347CD7D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{8704699D-87CA-4171-9709-51DF46CE0430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8704699D-87CA-4171-9709-51DF46CE0430}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8704699D-87CA-4171-9709-51DF46CE0430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFBBAAB-FD7F-4FF5-AADC-1D90BCC9525D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFBBAAB-FD7F-4FF5-AADC-1D90BCC9525D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFBBAAB-FD7F-4FF5-AADC-1D90BCC9525D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFBBAAB-FD7F-4FF5-AADC-1D90BCC9525D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{800F6C77-3461-4FE7-9AB8-503CBA27C65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800F6C77-3461-4FE7-9AB8-503CBA27C65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800F6C77-3461-4FE7-9AB8-503CBA27C65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800F6C77-3461-4FE7-9AB8-503CBA27C65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45F3A27-7F96-4FCC-BE4A-3A01347CD7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45F3A27-7F96-4FCC-BE4A-3A01347CD7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45F3A27-7F96-4FCC-BE4A-3A01347CD7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45F3A27-7F96-4FCC-BE4A-3A01347CD7D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
