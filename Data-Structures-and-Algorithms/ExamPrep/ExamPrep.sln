@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamPrep.HalfPalindromes", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamPrep.MostValuablePaths", "ExamPrep.MostValuablePaths\ExamPrep.MostValuablePaths.csproj", "{F15CDA01-1B35-47EE-8087-4FAF1B11006C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPrep.BaseWeb", "ExamPrep.BaseWeb\ExamPrep.BaseWeb.csproj", "{0F41C594-555C-4CC2-B341-B79D5EDB92BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamPrep.BaseWeb", "ExamPrep.BaseWeb\ExamPrep.BaseWeb.csproj", "{0F41C594-555C-4CC2-B341-B79D5EDB92BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPrep.BalloonSquad", "ExamPrep.BalloonSquad\ExamPrep.BalloonSquad.csproj", "{15DB920F-E7E5-4AE5-BD3C-B4AA1972A6DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamPrep.BalloonSquad", "ExamPrep.BalloonSquad\ExamPrep.BalloonSquad.csproj", "{15DB920F-E7E5-4AE5-BD3C-B4AA1972A6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPrep.Permutations", "ExamPrep.Permutations\ExamPrep.Permutations.csproj", "{4C982C10-615B-41CF-B479-12B714AA5BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPrep.Connections", "ExamPrep.Connections\ExamPrep.Connections.csproj", "{014BB861-2A82-4FDD-9B15-598FBF0F354D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{15DB920F-E7E5-4AE5-BD3C-B4AA1972A6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15DB920F-E7E5-4AE5-BD3C-B4AA1972A6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15DB920F-E7E5-4AE5-BD3C-B4AA1972A6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C982C10-615B-41CF-B479-12B714AA5BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C982C10-615B-41CF-B479-12B714AA5BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C982C10-615B-41CF-B479-12B714AA5BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C982C10-615B-41CF-B479-12B714AA5BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014BB861-2A82-4FDD-9B15-598FBF0F354D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014BB861-2A82-4FDD-9B15-598FBF0F354D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014BB861-2A82-4FDD-9B15-598FBF0F354D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014BB861-2A82-4FDD-9B15-598FBF0F354D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
