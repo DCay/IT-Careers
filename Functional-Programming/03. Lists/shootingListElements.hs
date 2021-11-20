@@ -69,4 +69,3 @@ readUntil arr = do
 
 main = do
     readUntil []
-    -- [Person, Name, Pesho, Age, 20]
